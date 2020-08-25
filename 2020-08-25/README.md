@@ -1,6 +1,6 @@
 # Taller: Métodos de arreglos (Array Cardio 1) - 25 Ago 2020
 
-[VIDEO PRÓXIMAMENTE]
+[![LIM013: Taller: Métodos de arreglos (Array Cardio 1) - 25 Ago 2020](https://img.youtube.com/vi/6aoNY5TqjJw/0.jpg)](https://youtu.be/6aoNY5TqjJw)
 
 ![map, filter and reduce explained with emoji](https://user-images.githubusercontent.com/110297/91191811-daf4c000-e6ba-11ea-8216-e05afa7cad54.png)
 
