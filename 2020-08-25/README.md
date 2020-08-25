@@ -1,10 +1,8 @@
-# Taller: Métodos de arreglos (Array Cardio)
+# Taller: Métodos de arreglos (Array Cardio 1) - 25 Ago 2020
+
+[VIDEO PRÓXIMAMENTE]
 
 ![map, filter and reduce explained with emoji](https://user-images.githubusercontent.com/110297/91191811-daf4c000-e6ba-11ea-8216-e05afa7cad54.png)
-
-https://laboratoria-la.zoom.us/j/98066212670
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?F5E3D294A3F67A695805142B5F564509BF3E
 
 ## Links
 

@@ -34,19 +34,6 @@
     // Array.prototype.filter()
     // 1. Filtra la lista de inventores con aquellos que nacieron en los 1500's
     // const siglo16 = inventors.filter(item => item.year >= 1500 && item.year < 1600);
-    // contieneA(esSiglo16(inventors))
-
-    console.table(
-      inventors
-        .filter(item => item.year >= 1500 && item.year < 1600)
-        .filter(item => item.last.includes('a'))
-    );
-
-    console.table(
-      inventors
-        .filter(esSiglo16)
-        .filter(contieneA)
-    );
 
     // const siglo16 = inventors.filter(function (item) {
     //   const esSiglo16 = item.year >= 1500 && item.year < 1600;
@@ -57,6 +44,21 @@
     // });
 
     // console.table(siglo16);
+
+    console.table(
+      inventors
+        .filter(item => item.year >= 1500 && item.year < 1600)
+        .filter(item => item.last.includes('a'))
+    );
+
+    const esSiglo16 = item => item.year >= 1500 && item.year < 1600;
+    const contieneA = item => item.last.includes('a');
+
+    console.table(
+      inventors
+        .filter(esSiglo16)
+        .filter(contieneA)
+    );
 
     // Array.prototype.map()
     // 2. Crea un arreglo con los nombres completos (first y last) de los inventores
