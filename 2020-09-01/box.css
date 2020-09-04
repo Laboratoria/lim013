@@ -1,0 +1,14 @@
+/* box.css */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: cursive;
+}
+
+.ejemplo {
+	background: tomato;
+	border: 5px solid black;
+}

@@ -1,0 +1,29 @@
+/* flex.css */
+
+.padre {
+	background: green;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.hijo {
+	padding: 10px;
+	background: chocolate;
+	flex-grow: 1;
+	min-width: 130px;
+}
+
+.hijo:nth-child(even) {
+	background-color: orange;
+}
+
+
+
+
+
